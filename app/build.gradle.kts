@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.pt2.myapplication"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.pt2.myapplication"
