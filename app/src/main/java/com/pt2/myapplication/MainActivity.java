@@ -33,6 +33,27 @@ public class MainActivity extends AppCompatActivity {
         czas = findViewById(R.id.czas);
         punkty = findViewById(R.id.punkty);
 
+        j1 = findViewById(R.id.j1);
+        j2 = findViewById(R.id.j2);
+        j3 = findViewById(R.id.j3);
+        j4 = findViewById(R.id.j4);
+        j5 = findViewById(R.id.j5);
+        j6 = findViewById(R.id.j6);
+        j7 = findViewById(R.id.j7);
+        j8 = findViewById(R.id.j8);
+        j9 = findViewById(R.id.j9);
+
+        j5.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        punktyLiczba++;
+                        punkty.setText(String.valueOf(punktyLiczba));
+                        j5.setVisibility();
+                    }
+                }
+        );
+
         start.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
